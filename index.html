@@ -4,79 +4,74 @@
   </head>
   <body>
     <h1>About You</h1>
-    <div class=Ó"question">Name</div>
+    <div class="question">Name</div>
     <div class="answer">
 
-      Teddy Raven
-<img src="teddy+shot.jpeg">
-    </div>
+      Kevin Becker
+<p>   </div>
     <div class="question">Degree/Graduation Year</div>
     <div class="answer">
 
-      BM Jazz Studies at USC, 2010
+      MM Music Technology and Composition at SFCM, 2019
 
-    </div>
+    </div> </p>
 
-    <div class="question">
+<p>    <div class="question">
       What experience (if any) do you have with programming?
       (None is fine!)
     </div>
     <div class="answer">
 
-      I took a basic HTML class in college about 10 years ago, did have a wordpress
-      website for a while but switched to squarespace a few years ago becuase its much easier
-      to maintain and easier to make look nice.
+      I took Max/MSP and did some VERY basic lua scripting with video game modding in my youth
 
-    </div>
-    <div class="question">
+    </div> </p>
+<p>    <div class="question">
       What's something you'd like to be able to build/do with programming?
     </div>
     <div class="answer">
 
-      Don't have strong intentions in terms of what I'd like to build or do with
-      programming, but being able to make a more interesting website for myself
-      or others would be useful. But at the moment I just want a greater understanding
-      of how programming works since so much of the world is governed by it, and <link rel="import" href="">
-      it has immense value in our society.
+      Make a website from scratch
 
-    </div>
+    </div> >p>
 
-    <h1>Think Like a Programmer</h1>
+<p>    <h1>Think Like a Programmer</h1>
     <div class="question">
       Pretend you are writing a plugin that automatically harmonizes with MIDI input.
       What instructions would you give a computer to do this programmatically?
     </div>
     <div class="answer">
 
-      I would first define harmony as a property, then define the event as the act of
-      harmonizing to the incoming midi input, then give the method of specific
-      harmonization, such as "major3rd"
+      I would define 12 frequencies which would be the western chromatic scale,
+      for a given input (1 of those 12) I would instruct the program to add an additional voice ex. input = 1 output = 1, and +3
 
-    </div>
-    <div class="question">
-      Pick an instrument and pretend you are writing an app that mimics that instrument.
+    </div> <p>
+  <p>  <div class="question">
+        Pick an instrument and pretend you are writing an app that mimics that instrument.
       How would you model the istrument in a way the computer would understand?
       Think about what different objects (e.g. "string" for a guitar) it might
       need and what properties (e.g. "pitch"), events (e.g. "pluck"),
       and methods (e.g. "playPitch()") would be useful.
     </div>
     <div class="answer">
+<marquee>
+      Organ:
+      As the organ gets its characteristic sound from mixing different timbres and harmonic overtones, this would be  the primary
+      modeling trait.  As the instrument does not have different velocities we would not need to worry about this.
 
-      I'll pick the saxophone since that is my primary instrument, though I may be shooting
-      myself in the foot since there are many variables. The primary objects would
-      be the different buttons to press down which result in different notes. I would
-      call these "button" and label them based on their corresonding name or finger on the sax (eg. button_lp;left pointer finger, or button_rm; right middle finger )
-      There are a few properties, most notably pitch, which would be determined by which objects (or buttons)
-      are activated. Other properties include articulation, vibrato, and dynamics. An event would
-be blowing, in which all or some properties are activated. And the method would be combine these previously listed factors
-
+      (are we approaching this from a sampling perspective or synthesis?)
+      If sampling, I would define the keyboard range as 61 pitches (the standard manual for an organ)
+      Then I would make recordings of each pitch using the differnt stops (ex; flute, reed, foundation, and mixture)
+      finally I would create a program to somehow compile all of these recordings together (i could do this in max, and will
+      hopefully learn how to do it in text based enviroment) lastly I would have some sort of UI element such as a keyboard
+      that could be clicked or touched in order to trigger the corresponding sample.
+</marquee>
       <base href="#" target="_blank">
 
 
 
       <base href="" target="_blank">
 
-    </div>
+    </div> <p>
 
 
   </body>

@@ -1,1 +1,17 @@
 /* TODO: Add your styles here */
+body {
+    background-color: black;
+}h1 {
+    color: white;
+    text-align: center;
+}
+.question {
+  color: white;
+  font-weight: bold;
+  font-size: larger;
+}
+.answer {
+  color: white;
+
+
+}
